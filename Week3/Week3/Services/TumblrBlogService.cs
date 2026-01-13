@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using Week3.Models;
+﻿using Week3.Models;
 using Week3.Repositories;
 
 namespace Week3.Services
