@@ -34,6 +34,10 @@ namespace Chapter7
             {
                 Console.WriteLine($"FATAL SYSTEM ERROR: {e.Message}. Contact bank administrator immediately.");
             }
+            catch(AccountNotFoundException e)
+            {
+                Console.WriteLine($"INVALID ACCOUNT: {e.Message}. Please check your account details and try again.");
+            }
             catch (Exception e)
             {
                 Console.WriteLine($"AN UNKNOWN ERROR OCCURRED: {e.Message}. Transaction cancelled.");
