@@ -30,3 +30,7 @@ packages/
 *.tmp
 *.temp
 *.swp
+
+*.csproj
+*.sln
+*.slnx
